@@ -1,8 +1,8 @@
 from __future__ import print_function
-from flask import Flask, redirect, url_for
-import os
+from flask import Flask
 import sys
 sys.path.append("../")
+
 
 def create_app():
     app = Flask(__name__)
